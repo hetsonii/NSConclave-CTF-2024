@@ -1,0 +1,31 @@
+दुर्योधन-म्फिले-अभिज्ञाप्ति-दोष
+=
+Points: 15
+Difficulty: Medium
+
+Duryodhana's website allows users to include external files. Infiltrate Duryodhana's server and find the stolen battle plans. But be careful, the server is heavily guarded and you will need to use all of your skills to avoid detection.
+
+CTF flag format: CTF-Chakravyuha-{CTFrancomflagvalue}
+
+Duryodhana's server: http://server1.chakravyuh.in:9005
+
+Duryodhana's server mirror link : http://server2.chakravyuh.in:9005
+
+
+![Problem Image]()
+
+
+## Solution
+
+- I first started a local ngrok server and hosted local php files that read given directories or files.
+From the description we know that the server is vulnerable to Remote File Inclusion. So I tried to include my local server's php files
+
+
+- Reading /root gave following output
+
+![Output Image]()
+
+- Reading the flag file gave me the final flag
+
+![Flag Image]()
+
