@@ -12,7 +12,7 @@ Duryodhana's server: http://server1.chakravyuh.in:9005
 Duryodhana's server mirror link : http://server2.chakravyuh.in:9005
 
 
-![Problem Image]()
+![Problem Image](https://github.com/hetsonii/NSConclave-CTF-2024/assets/75877010/70fd43af-62d8-424d-8c1f-d299c25dec6f)
 
 
 ## Solution
@@ -23,9 +23,10 @@ From the description we know that the server is vulnerable to Remote File Inclus
 
 - Reading /root gave following output
 
-![Output Image]()
+![Output](https://github.com/hetsonii/NSConclave-CTF-2024/assets/75877010/82e82382-545b-4cef-8b26-70d121243fd5)
+
 
 - Reading the flag file gave me the final flag
 
-![Flag Image]()
+![Flag Image](https://github.com/hetsonii/NSConclave-CTF-2024/assets/75877010/f54617df-1fc0-472c-9d68-ceddcee806cc)
 
